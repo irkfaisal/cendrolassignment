@@ -1,0 +1,52 @@
+#catBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10rem;
+    height: 8rem;
+    background: #fff;
+    color: rgb(13, 13, 82);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+    h1 {
+
+        text-transform: capitalize;
+
+    }
+
+}
+
+#catBox:link,
+#catBox:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+#catBox:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

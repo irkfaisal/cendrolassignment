@@ -1,0 +1,14 @@
+#insideDiv {
+    border: 2px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #fff
+}
+
+h1 {
+
+    text-transform: capitalize;
+
+}
